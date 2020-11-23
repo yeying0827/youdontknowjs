@@ -1,3 +1,4 @@
+// 仅从bar模块导入hello
 import hello from "bar";
 
 var hungry = "hippo";

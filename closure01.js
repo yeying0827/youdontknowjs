@@ -29,9 +29,10 @@ MyModules.define( "bar", [], function() {
 } );
 
 MyModules.define( "foo", ["bar"], function(bar) {
-	var hungry = "hippo";
+	var hungry = "hippo---";
 	
 	function awesome() {
+		console.log( bar );
 		console.log( bar.hello( hungry ).toUpperCase() );
 	}
 
